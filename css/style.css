@@ -1,0 +1,54 @@
+.background-gradient {
+  background: rgb(34,154,195);
+  background: linear-gradient(180deg, rgba(34,154,195,1) 33%, rgba(253,177,45,1) 100%);
+}
+
+.background-gradient-revert {
+  background: rgb(34,154,195);
+  background: linear-gradient(0deg, rgba(34,154,195,1) 33%, rgba(253,177,45,1) 100%);
+}
+
+.image_round {
+  border-radius: 20pt;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.hanns {
+  font-family: 'Sixtyfour', sans-serif;
+  color: purple;
+}
+
+.card-dortmund {
+  background-size: 450px 450px;
+  background-image: url('../images/dortmund.jpg');
+}
+
+.card-mvp {
+  background-size: 450px 450px;
+  background-image: url('../images/mvp.png')
+}
+
+.card-sky {
+  background-size: 450px 450px;
+  background-image: url('../images/sky.jpeg');
+}
+
+.material-symbols-outlined {
+  font-size: 40pt;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.medium{
+  font-size: 20pt;
+}
+
+.small{
+  font-size: 12pt;
+}
